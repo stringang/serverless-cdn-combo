@@ -1,0 +1,17 @@
+component: http
+name: serverless-cdn-combo
+
+inputs:
+  src:
+    src: ./ # 项目代码路径
+    exclude:
+      - .env
+      - node_modules
+  region: ap-shanghai # 函数所在区域
+  functionName: serverless-cdn-combo # 云函数名称
+  runtime: Nodejs12.16 # 运行环境
+  apigatewayConf: # api网关配置
+    protocols:
+      - http
+      - https
+    environment: release
