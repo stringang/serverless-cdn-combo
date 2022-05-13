@@ -15,10 +15,10 @@ https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.
 ## 部署
 
 需提供以下环境变量：
-- TENCENT_BUCKET
-- TENCENT_REGION
-- TENCENT_SECRET_ID
-- TENCENT_SECRET_KEY
+- TENCENT_BUCKET: test
+- TENCENT_REGION: ap-shanghai
+- TENCENT_SECRET_ID: abc
+- TENCENT_SECRET_KEY: abc
 
 ## 参考
 - https://github.com/rgrove/combohandler
